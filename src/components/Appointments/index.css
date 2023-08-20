@@ -1,0 +1,68 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9897f0, #8b5cf6);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  height: 30px;
+  width: 340px;
+  margin-bottom: 10px;
+}
+.textarea {
+  height: 30px;
+  width: 340px;
+  margin-bottom: 10px;
+}
+.pargraph {
+  color: #b5b7c4;
+}
+.button {
+  height: 30px;
+  width: 90px;
+  background-color: #8b5cf6;
+  border-radius: 20px;
+  border: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.image {
+  height: 200px;
+  margin-left: 240px;
+}
+.appointment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button-start {
+  margin-left: 600px;
+  height: 20px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: white;
+  border: solid #9796f0;
+  color: #9796f0;
+}
